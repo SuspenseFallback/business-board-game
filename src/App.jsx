@@ -435,7 +435,10 @@ function App() {
 
   return (
     <div className="page">
-      <div className={"modal-overlay" + (modal ? "" : " hidden")}></div>
+      <div
+        className={"modal-overlay" + (modal ? "" : " hidden")}
+        onClick={close_question}
+      ></div>
       <div className={"modal" + (modal ? "" : " hidden")}>
         <div className="modal-container">
           <div className="question-container">
