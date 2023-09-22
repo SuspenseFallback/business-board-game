@@ -33,10 +33,10 @@ function App() {
     "What is an disadvantage of being a sole trader?",
     "What is an advantage of being a partnership?",
     "What is an disadvantage of being a partnership?",
+    "What is an advantage of being a private limited company?",
+    "What is an disadvantage of being a private limited company?",
     "What is an advantage of being a public limited company?",
     "What is an disadvantage of being a public limited company?",
-    "What is an advantage of being a sole trader?",
-    "What is an disadvantage of being a sole trader?",
     "What is the liability of a sole trader?",
     "What is the liability of a partnership?",
     "What is the liability of a public limited company?",
@@ -82,6 +82,10 @@ function App() {
     ["Family and friends", "One person", "Two or more people", "The public"],
     ["The public", "One person", "Two or more people", "Family and friends"],
   ];
+
+  useEffect(() => {
+    document.title = "Business Tic Tac Toe";
+  }, []);
 
   function shuffle(array) {
     let new_array = [...array];
