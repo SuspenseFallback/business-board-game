@@ -46,6 +46,10 @@ function App() {
     "Who owns an incorporated company?",
     "Who can buy shares in a private limited company?",
     "Who can buy shares in a public limited company?",
+    "What size is a sole trader?",
+    "What size is a partnership?",
+    "What size is a private limited company?",
+    "What size is a public limited company?",
   ];
 
   const answers = [
@@ -81,6 +85,10 @@ function App() {
     ["Shareholders", "Stakeholders", "Flareholders", "AGM"],
     ["Family and friends", "One person", "Two or more people", "The public"],
     ["The public", "One person", "Two or more people", "Family and friends"],
+    ["Small/Medium", "Medium", "Large", "XL"],
+    ["Small/Medium", "Medium", "Large", "XL"],
+    ["Medium/Large", "Small/Medium", "Large", "XL"],
+    ["Large", "Small/Medium", "Medium", "XL"],
   ];
 
   useEffect(() => {
