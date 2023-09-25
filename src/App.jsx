@@ -164,6 +164,7 @@ function App() {
       }
     } else {
       set_correct(false);
+      set_x_turn(!x_turn);
     }
   };
 
